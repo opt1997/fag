@@ -1,0 +1,4 @@
+com\ares\fag\BuiltinAggregationApplication.class
+com\ares\fag\fallback\Fallback.class
+com\ares\fag\controller\AggregationController.class
+com\ares\fag\micservice\Fulfillment.class
