@@ -1,0 +1,20 @@
+server:
+  port: 9200
+
+spring:
+  application:
+    name: builtin-database
+
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 1.15.95.83:8848
+
+  datasource:
+    username: root
+    password: toor
+    url: jdbc:mysql://1.15.95.83:3306/builtin-db?useUnicode=true&useSSL=false&characterEncoding=utf8&serverTimezone=Asia/Shanghai
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+mybatis:
+  mapper-locations: classpath:com/ares/fag/dao/*.xml

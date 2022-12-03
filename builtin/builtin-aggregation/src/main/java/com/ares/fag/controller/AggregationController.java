@@ -15,4 +15,14 @@ public class AggregationController {
     public String hello() {
         return fulfillment.hello();
     }
+
+    @RequestMapping("/hello/redis")
+    public String helloRedis() {
+        return "HELLO REDIS";
+    }
+
+    @RequestMapping("/hello/kafka")
+    public String helloKafka() {
+        return "HELLO KAFKA";
+    }
 }

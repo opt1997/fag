@@ -21,6 +21,7 @@
 
     <modules>
         <module>builtin-aggregation</module>
+        <module>builtin-database</module>
     </modules>
 
     <properties>
